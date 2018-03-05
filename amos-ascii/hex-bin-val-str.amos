@@ -1,0 +1,9 @@
+
+print hex$(255)
+
+print bin$(55)
+
+print val("500")
+
+print str$(500)
+

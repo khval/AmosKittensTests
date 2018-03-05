@@ -1,0 +1,28 @@
+
+Yellow["Rock","and","roll"]
+
+Yellow2["Rock","and","roll","Two"]
+
+procedure Yellow[a$,b$,c$]
+
+	a=0
+	b=0
+	c=0
+
+	print b$,c$
+	print a$
+
+end proc
+
+procedure Yellow2[a$,b$,c$,d$]
+
+	a=0
+	b=0
+	c=0
+
+	print b$,c$
+	print a$
+
+end proc
+
+

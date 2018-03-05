@@ -1,0 +1,11 @@
+A=1000:B=42
+
+TEST
+
+Procedure Test
+	Shared A,B
+	A=A+B
+	B=B+10
+End Proc
+
+print A,B

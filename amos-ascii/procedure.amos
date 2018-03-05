@@ -1,0 +1,13 @@
+
+hello
+
+proc hello
+
+end
+
+procedure hello
+
+print "Hello world"
+
+end proc
+

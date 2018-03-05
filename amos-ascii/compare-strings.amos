@@ -1,0 +1,5 @@
+
+input "Enter your First Name: ";C$
+input "Enter your last Name: ";S$
+if C$>S$ Then Print S$;"   ";C$ Else Print C$;"    ";S$
+

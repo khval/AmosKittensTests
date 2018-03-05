@@ -1,0 +1,7 @@
+
+txt$="Hello world"
+
+print left$(txt$,5)
+print mid$(txt$,5,3)
+print right$(txt$,5)
+

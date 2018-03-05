@@ -1,0 +1,12 @@
+
+gosub last
+gosub first
+end 
+
+first:
+	print "first"
+	return
+
+last:
+	print "last"
+	return

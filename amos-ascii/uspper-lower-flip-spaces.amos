@@ -1,0 +1,10 @@
+a$="Amos Pro"
+
+print upper$(a$)
+
+print lower$(a$)
+
+print flip$(a$)
+
+print "AMOS"+space$(5)+"Pro"
+

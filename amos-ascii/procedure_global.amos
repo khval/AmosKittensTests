@@ -1,0 +1,8 @@
+a=1000 :  B=42
+global A,b
+test
+Procedure test
+	a=a+b : b=b+10
+	print "test"
+End Proc
+print "End of program"

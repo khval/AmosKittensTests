@@ -1,0 +1,9 @@
+
+print string$("AB",10)
+
+print chr$(32)
+
+print asc("A")
+
+print len("123456789")
+

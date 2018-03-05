@@ -1,0 +1,13 @@
+
+
+A=3.141
+Print A
+Print 19/2
+
+B#=1.5
+B#=B#+2
+print B#
+
+C# = A
+D = C#
+

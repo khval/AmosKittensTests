@@ -1,0 +1,6 @@
+
+print instr("AMOS Basic","AMOS")
+
+print instr("AMOS Basic","S")
+
+print instr("AMOS Basic","AMIGA")

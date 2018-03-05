@@ -1,0 +1,8 @@
+a:
+bb:
+ccc:
+dddd:
+
+label:
+	print "loop"
+	goto label

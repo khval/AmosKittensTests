@@ -1,0 +1,6 @@
+
+if 0 then 
+print "it worked"
+else
+print "skip this"
+end if

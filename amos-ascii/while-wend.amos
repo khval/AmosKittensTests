@@ -1,0 +1,6 @@
+rem This is a test program
+
+while true
+	print "loop"
+wend
+

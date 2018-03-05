@@ -1,0 +1,2 @@
+Input "What 's your name; ";name$
+print "your name is "+name$
