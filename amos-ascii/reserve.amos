@@ -1,0 +1,8 @@
+
+reserve as work 1,1000
+reserve as chip work 2,1000
+reserve as data 3,1000
+reserve as chip data 4,1000
+
+list bank
+

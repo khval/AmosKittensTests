@@ -1,0 +1,10 @@
+Read A$ : Print a$
+Example
+Read b$ : Print b$
+Procedure Example
+	Read x$,y$
+	Print X$,Y$
+	Data "Basic","is"
+End Proc
+Data "AMOS","amazing!"
+

@@ -1,0 +1,10 @@
+
+procedure float
+end proc[3.4]
+
+float
+
+print param
+print param#
+print param$
+

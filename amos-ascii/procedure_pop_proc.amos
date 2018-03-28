@@ -1,0 +1,9 @@
+
+procedure test
+	print "show this"
+	pop proc
+	print "don't show this"
+end proc
+
+test
+

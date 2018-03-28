@@ -1,0 +1,8 @@
+
+a$=DIR$
+print a$
+DIR$ = "SYS:"
+
+b$ = DIR$
+print b$
+

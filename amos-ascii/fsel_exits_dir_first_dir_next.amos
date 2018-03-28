@@ -1,0 +1,10 @@
+
+file$=fsel$("*.iff","","load an IFF file")
+print file$
+
+if exist(file$)
+print "file exist"
+end if
+
+f$=dir first$("*.*")
+n$ =dir next$

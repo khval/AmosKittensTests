@@ -1,0 +1,7 @@
+
+Open In 1,"ram:file.txt"
+Line Input #1,a$,b$
+close 1
+
+print a$
+print b$

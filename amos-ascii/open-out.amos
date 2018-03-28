@@ -1,0 +1,6 @@
+
+append 1,"ram:file.txt"
+Input "What is your name ";N$
+Print #1,N$
+Close 1
+

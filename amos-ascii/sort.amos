@@ -1,0 +1,11 @@
+
+dim A(25)
+P=0
+Repeat
+	input "Input A number (0 To stop)";A(P)
+	Inc P
+Until A(P-1)=0 or P>25
+Sort A(0)
+For i=0 to P-1
+	Print A(i)
+next i

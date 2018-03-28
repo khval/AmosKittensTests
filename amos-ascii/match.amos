@@ -1,0 +1,20 @@
+read N
+dim D$(N)
+For i=1 to N
+	Read D$(i)
+next i
+sort d$(0)
+do
+	input a$
+rem	if a$="L"
+rem		for i= to n : print d$(i) : next i
+rem	else
+		pos = match( D$(0),A$ )
+rem		if pos>0 : print "found",D$(pos);" in record ";pos : end if
+rem		if pos<0 and abs(pos)<=N : print a$," Not found. closest to ",d$(abs(pos)) : end if
+rem		if pos<0 and abs(pos)>N : print a$," Not found, closest to ",d$(n) : end if
+rem	end if
+loop
+
+data 10,"Adams","Asimov","Shaw","Heinlien","Zalazny","Fpster","Niven"
+data "Harrison","Pratchet","Dickson"

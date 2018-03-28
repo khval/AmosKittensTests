@@ -1,0 +1,16 @@
+
+reserve as work 1,1000
+reserve as work 2,1000
+
+reserve as work 4,1000
+
+bload "s:user-startup",1
+bload "s:user-startup",start(2)
+bsave "ram:user-startup",start(1) to start(1)+length(1)
+
+print start(4),length(4)
+
+erase 4
+
+list bank
+

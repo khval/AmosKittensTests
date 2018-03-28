@@ -1,0 +1,8 @@
+
+parent
+set dir 30,"*.info"
+f=dfree
+print "disk free: ";f
+kill "ram:somefile.txt"
+rename "file1" to "file2"
+
