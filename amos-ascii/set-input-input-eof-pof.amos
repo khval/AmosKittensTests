@@ -1,0 +1,8 @@
+set input 13,10
+open in 1,"ram:file.txt"
+x$=Input$(1,4)
+print lof(1)
+print pof(1)
+print eof(1)
+Close 1
+

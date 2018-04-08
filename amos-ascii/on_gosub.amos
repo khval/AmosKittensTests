@@ -1,0 +1,21 @@
+
+repeat
+	input "pick a number 1 to 3: "; var
+	if var >= 0 then on var gosub line1,line2,line3
+until var = -1
+
+end
+
+line1:
+	print "line1"
+	return
+
+line2:
+	print "line2"
+	return
+
+line3:
+	print "line3"
+	return 
+
+

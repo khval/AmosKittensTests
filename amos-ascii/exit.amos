@@ -1,0 +1,10 @@
+
+a = 0
+do
+	print "a in loop=";a
+	if a=2 then exit
+	a=a+1
+loop
+
+print "a at exit=";a
+

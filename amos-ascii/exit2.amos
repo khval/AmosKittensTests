@@ -1,0 +1,14 @@
+
+for b=0 to 10
+
+	a = 0
+	do
+		print "a in loop=";a
+		if a=5 then exit 1
+		if b=3 and a=2 then exit 2
+		a=a+1
+	loop
+next
+
+print "a is " ; a ; " bs is " ; b
+

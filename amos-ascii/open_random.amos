@@ -1,0 +1,11 @@
+
+open random 1,"ram:db.file"
+field 1, 15 as surname$, 15 as name$, 10 as code$, 10 as tel$
+name$="Alice"
+put 1,1
+name$="Paula"
+put 1,2
+get 1,1
+print name$
+close 1
+
