@@ -1,0 +1,20 @@
+
+
+A=0 
+B=0 
+C=0 
+
+Do 
+   Do 
+      Exit If B=2 
+      Exit If C=5,2 
+      B=B+1 
+
+      Print "b:";B 
+   Loop 
+   B=0 
+   C=C+1 
+   Print "c:";C 
+ Loop 
+
+Print "Values at exit: ";B,C

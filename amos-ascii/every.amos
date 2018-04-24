@@ -1,0 +1,26 @@
+
+Every 10 Gosub SUB 
+
+for a=0 to 10
+	Print "wait for timer" 
+	Wait 5
+next
+ 
+Every 10 Proc EPROC 
+for a=0 to 10
+	Print "wait for timer" 
+	Wait 20
+next 
+
+End 
+
+SUB: 
+	Print "every gosub" 
+	every on
+Return 
+
+Procedure EPROC 
+	Print "every proc" 
+	every on
+End Proc 
+

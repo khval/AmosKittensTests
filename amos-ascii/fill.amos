@@ -1,0 +1,8 @@
+
+reserve as data 10,1000
+a$="AMOS"
+fill start(10) to start(10)+length(10),leek(varptr(a$))
+for p=0 to length(10)-1
+	print p, chr$(peek(start(10)+p))
+next p
+

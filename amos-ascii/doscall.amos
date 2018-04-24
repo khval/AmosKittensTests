@@ -1,0 +1,21 @@
+
+MODE_OLDFILE=1005
+MODE_NEWFILE=1006
+MODE_READWRITE=1004
+
+file$="CON:"
+
+Amos To Back
+
+DREG(1) = varptr(file$)
+DREG(2) = MODE_OLDFILE
+fd=DOSCALL(-30)
+
+if fd
+	wait 20
+	DREG(1) = fd
+	DOSCALL(-36)
+end if
+
+Amos To Front
+

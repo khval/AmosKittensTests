@@ -1,0 +1,25 @@
+
+a=%10000001
+b=181
+c=%1111
+
+ror.b 1,a
+ror.w 2,b
+ror.l 3,c
+
+print bin$(a)
+print bin$(b)
+print bin$(c)
+
+a=%10000001
+b=181
+c=%1111
+
+rol.b 1,a
+rol.w 2,b
+rol.l 3,c
+
+print bin$(a)
+print bin$(b)
+print bin$(c)
+

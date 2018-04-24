@@ -1,0 +1,15 @@
+
+reserve as data 10,1000
+
+poke start(10)+10,asc("f")
+poke start(10)+11,asc("i")
+poke start(10)+12,asc("n")
+poke start(10)+13,asc("d")
+poke start(10)+14,asc(" ")
+poke start(10)+15,asc("m")
+poke start(10)+16,asc("e")
+
+f=hunt(start(10) to start(10)+length(10)-1,"find me" )
+
+print f
+

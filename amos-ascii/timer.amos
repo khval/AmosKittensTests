@@ -1,0 +1,7 @@
+
+
+print timer
+timer = 0
+wait 20
+print timer
+

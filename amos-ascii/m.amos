@@ -1,0 +1,27 @@
+
+reserve as work 1,1000
+reserve as work 2,1000
+
+a=start(1)
+b=start(2)
+
+poke a,asc("A")
+poke a+1,asc("m")
+poke a+2,asc("o")
+poke a+3,asc("s")
+
+v=leek(a)
+
+copy a,a+4 to b
+
+print hex$(v)
+print chr$(peek(b))
+print chr$(peek(b+1))
+print chr$(peek(b+2))
+print chr$(peek(b+3))
+
+print deek(a+2)
+
+erase 1
+erase 2
+

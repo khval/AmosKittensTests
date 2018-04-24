@@ -1,0 +1,6 @@
+
+areg(0)=23
+dreg(0)=10
+print areg(0)
+print dreg(0)
+

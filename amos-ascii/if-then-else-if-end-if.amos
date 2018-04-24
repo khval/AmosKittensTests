@@ -1,0 +1,17 @@
+
+do
+	input "Num: ";a
+
+	if a=0 
+		print "N: zero"
+	else if a=1
+		print "N: one"
+	else if a=2
+		print "N: two"
+	else
+		print "N: other"
+	end if
+
+	if a = 0 then print "Z: zero" : else : print "Z: else"
+loop
+

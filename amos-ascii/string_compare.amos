@@ -1,0 +1,31 @@
+
+if "a" = "b" 
+print "a = b is true"
+end if
+
+if "a" > "b" 
+print "a > b is true"
+end if
+
+if "a" < "b"
+print "a < b is true"
+end if
+
+if "a" => "b"
+print "a => b is true"
+end if
+
+if "a" >= "b"
+print "a >= b is true"
+end if
+
+if "a" =< "b"
+print "a =< b is true"
+end if
+
+if "a" <= "b"
+print "a <= b is true"
+end if
+
+print "all done"
+

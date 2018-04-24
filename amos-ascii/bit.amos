@@ -1,0 +1,14 @@
+
+b=%1010
+print btst(3,b)
+print btst(2,b)
+
+bset 2,b
+print btst(2,b)
+
+bchg 2,b
+print btst(2,b)
+
+bclr 1,b
+print bin$(b)
+
