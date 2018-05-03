@@ -1,0 +1,11 @@
+
+	restore "L"+"A"+"B"
+	read a$,b$,c$
+	print a$,b$,c$
+
+nodata:
+	data "don't read this crap"
+
+lab:
+	data "data1", "data2", "data3", "data4"
+

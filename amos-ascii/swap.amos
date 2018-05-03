@@ -1,0 +1,10 @@
+
+' testing mark rem 
+
+a$="Amiga"
+b$="500"
+
+swap a$,b$
+
+print a$,b$
+

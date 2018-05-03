@@ -1,0 +1,9 @@
+
+a=20
+b=30
+c=40
+
+Def fn Test(a,b,c)=a*100+b*10+c
+
+print fn test(9,8,7)
+

@@ -1,0 +1,11 @@
+
+pload "test_asm/pload_test.exe",1
+
+list bank
+
+amos to back
+
+call 1
+
+amos to front
+

@@ -1,0 +1,20 @@
+
+
+a$ = "SCOUT.1"
+
+rem disable multitasking
+n = execall(-120)
+
+rem find port
+AREG(1) = varptr( a$ )
+port = execall(-390)
+
+rem enable multitasking
+n = execall(-126)
+
+if port
+	print a$ + " is running"
+else
+	print a$ + " is not running"
+end if
+

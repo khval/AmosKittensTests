@@ -1,0 +1,5 @@
+
+print bin$(not(%1010),4)
+
+if not(true)=false then print "False"
+
