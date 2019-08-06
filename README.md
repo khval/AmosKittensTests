@@ -26,7 +26,7 @@ http://www.hyperion-entertainment.com/index.php/where-to-buy/direct-downloads/17
 
 Once you own "AmigaOS 3.1.4" you can register it and get 3.1.4.1 that is bug fixed version as download option from Hyperion.
 
-Next you need BlizzardPPC or CyberstomPPC rom, I suggest google it. the roms are bundled with Amiga Forever package, but as far as I know Cloanto never played for lenience to use the ROMS in there emulation package, so as far as I know the roms are abandonware. (The Companies that have right are not selling the rom, and Clonato who is selling it are not doing so legally as far as I know.)
+Next you need BlizzardPPC or CyberstomPPC rom, I suggest google it. the roms are bundled with Amiga Forever package, but as far as I know Cloanto never payed for lenience to use the ROMS in there emulation package, (BizzardPPC / CyberstormPPC roms was made by Phase5 that laster become bPlain i belive) so as far as I know the roms are abandonware. (The Companie that have right are not selling the rom, and Clonato who is selling it are not doing so legally as far as I know.)
 
 Another option is to buy AmigaOS4.1 for 440/460, and use QEMU, it harder to setup and it work best on Linux, as far as I know AmigaOS4.1 version for 440/460 is only available from ACube-Systems webshop, this where find roms you need as well.
 
